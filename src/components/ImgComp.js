@@ -1,5 +1,8 @@
 import React from "react";
 import "../assets/style/ImgComp.scss";
+import PlayArrowIcon from "@material-ui/icons/PlayArrow";
+import AddIcon from "@material-ui/icons/Add";
+import ShareIcon from "@material-ui/icons/Share";
 
 function ImgComp({ src }) {
   //   let imgStyles = {
@@ -44,13 +47,27 @@ function ImgComp({ src }) {
           </div>
           <div class="description"> {obj.description}</div>
         </div>
-        <div className="play_link">
-          <div>icon</div>
-          <div className="watch_title">
-            <h3 className="start_title">Watch First Episode</h3>
-            <div class="meta-data">S1 E1 . 3 May 2010</div>
+        {/* <div className="slider_bottom">
+          <div className="play_link">
+            <div>
+              <PlayArrowIcon />
+            </div>
+            <div className="watch_title">
+              <h3 className="start_title">Watch First Episode</h3>
+              <div class="meta-data">S1 E1 . 3 May 2010</div>
+            </div>
           </div>
-        </div>
+          <div className="Icon_align">
+            <div className="Slider_Icon">
+              <AddIcon />
+              <div>WATCHLIST</div>
+            </div>
+            <div class="Slider_Icon">
+              <ShareIcon />
+              <div>SHARE</div>
+            </div>
+          </div>
+        </div> */}
       </div>
       <img src={src} alt="slide-img" className="slider_img" />
     </div>

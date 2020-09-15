@@ -1,0 +1,18 @@
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 2%;
+  border: 1px solid red;
+}
+.nav_partition {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_item {
+  margin: 0 3%;
+}
+.nav_partition2 {
+  transform: translateX(-30%);
+}

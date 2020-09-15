@@ -1,5 +1,8 @@
 .text_palate {
   margin: 3%;
+  margin-right: 0;
+  position: relative;
+  z-index: 5;
 }
 .props-meta-details {
   margin: 3% auto;
@@ -19,7 +22,6 @@
 .play_link {
   display: flex;
   align-items: center;
-  margin-top: 8%;
 }
 .start_title {
   margin: 0;
@@ -27,4 +29,22 @@
 }
 .watch_title {
   margin: 0 4%;
+}
+.slider_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8%;
+  margin-right: 0%;
+}
+.Icon_align {
+  display: flex;
+  justify-content: space-between;
+}
+.Slider_Icon {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: b;
+  margin-right: 25%;
+  margin-left: -5%;
 }
