@@ -7,14 +7,15 @@ import "../assets/style/header.scss";
 function Header() {
   return (
     <div>
-      <h1>Header</h1>
+      {/* <h1>Header</h1> */}
       <div className="nav" style={{ flex: 1 }}>
         <div className="nav_partition">
           <div className="nav_item">
             <MenuIcon />
           </div>
-          <div className="nav_item">
+          <div className="nav_item ">
             <img
+              className="logo"
               src={
                 "https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg"
               }
@@ -25,7 +26,7 @@ function Header() {
           <div class="nav_item meta-data">Sports</div>
           <div class="nav_item meta-data">News</div>
           <div class="nav_item meta-data">Premium</div>
-          <div class="nav_item meta-data">
+          <div class="nav_item meta-data new_col">
             <div>Disney+</div>
             <div className="new">NEW</div>
           </div>
@@ -36,12 +37,12 @@ function Header() {
           </div>
         </div>
         <div className="nav_partition nav_partition2">
-          <div className="nav_item nav_partition">
-            <input type="text" />
-            <SearchIcon />
+          <div className="nav_item nav_partition nav_input_area">
+            <input className="nav_search" type="text" placeholder="Search" />
+            <SearchIcon style={{ color: "#7d8188", fontSize: "1.3rem" }} />
           </div>
-          <div className="nav_item">SUBSCRIBE</div>
-          <div className="nav_item">LOGIN</div>
+          <div className="nav_item nav_btn">SUBSCRIBE</div>
+          <div className="nav_item login">LOGIN</div>
         </div>
       </div>
     </div>
