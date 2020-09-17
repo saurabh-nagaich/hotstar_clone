@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+.card_selction::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.card_item {
+  margin-right: 0.8%;
+}
+
+.heading_title {
+  margin: 0;
+  margin-left: 3%;
+  margin-top: 1%;
+  margin-bottom: -2%;
+}
+.card_selction {
+  width: 90%;
+  display: flex;
+  padding: 0 3%;
+  align-items: center;
+  height: 300px;
+  overflow: hidden;
+
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
