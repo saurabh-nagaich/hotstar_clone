@@ -1,0 +1,36 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.5%;
+  padding-bottom: 1.5%;
+  padding-top: 4%;
+}
+.footer_link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer_link_items {
+  margin-right: 3%;
+  margin-bottom: 1%;
+  color: rgba(244, 248, 244, 0.918);
+  &:hover {
+    color: #0e4dcd;
+    cursor: context-menu;
+  }
+}
+.font {
+  font-size: 0.7rem;
+}
+.color {
+  color: rgba(244, 248, 244, 0.918);
+}
+.store {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.store_text {
+  padding-left: 10px;
+}

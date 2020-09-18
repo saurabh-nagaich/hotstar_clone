@@ -7,7 +7,10 @@ function Row() {
   const [fill, setFill] = useState([...data]);
   // console.log(fill);
   return (
-    <div style={{ "margin-top": "3%" }}>
+    <div
+      style={{ "margin-top": "3%" }}
+      onClick={(e) => console.log(e.target.parentNode.parentNode)}
+    >
       {fill.map((e, i) => {
         // console.log(e);
         return <ListSlider result={e} />;

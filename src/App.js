@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import CardSlider from "./components/CardSlider";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ListSlider from "./components/ListSlider";
 import Row from "./components/Row";
@@ -12,10 +13,7 @@ function App() {
       <Header />
       <Slider />
       <Row />
-      {/* <CardSlider /> */}
-      <h1 style={{ color: "white" }}>hotstar</h1>
-      <h1 style={{ color: "white" }}>hotstar</h1>
-      <h1 style={{ color: "white" }}>hotstar</h1>
+      <Footer />
     </div>
   );
 }

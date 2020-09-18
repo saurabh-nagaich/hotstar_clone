@@ -17,6 +17,10 @@
 .nav_item {
   margin: 0 3%;
   font-weight: 600;
+  &:hover {
+    color: #c9cdd4;
+    cursor: context-menu;
+  }
 }
 .nav_partition2 {
   transform: translateX(-30%);
