@@ -5,20 +5,6 @@ import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 
 function ListSlider({ result }) {
-  // const { heading_title, data: cardArr } = data;
-  // const [x, setX] = useState(19);
-  // const cardArr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-
-  // const goBack = () => (x === 0 ? null : x - 16 > 0 ? setX(x - 19) : setX(0));
-  // const goRight = (e) => {
-  //   // e.preventDefault();
-  //   return x >= cardArr.length
-  //     ? null
-  //     : x + 19 < cardArr.length
-  //     ? setX(x + 19)
-  //     : setX(cardArr.length);
-  // };
-  // console.log(heading_title, cardArr);
   return (
     <div>
       {/* {console.log(result)} */}
